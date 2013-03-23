@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="spr_roads_1_strip15_1" tilewidth="32" tileheight="32">
+  <image source="spr_roads_1_strip15_1.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="31" name="cobbleset" tilewidth="32" tileheight="32">
+  <image source="cobbleset.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="287" name="tree" tilewidth="32" tileheight="32">
+  <image source="tree.png" width="512" height="289"/>
+ </tileset>
+ <layer name="Background" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC6WUuU7EQAyG8ya5ashVgQS72ZQI5aBCFJvslvAMvABHASVHAS+KR/qstaIEaZXi13o942889sSt53m9qBZFooD/FfZa9CC6El2LQvb5ogw1+B1jYD3C7lh3a6sJ3sCa86eillgXs8GXsa9lr+ZbTfBSfCHaoQJ/iV2QWyzKsesJXsQ5K3OPkvs3xJac5cOtTZ3GPI3VtTXslHslMBL4MTH7mX5kpm9ql8T75Pct+vxH5/DORLcz+uIMV6dH0d1C6VsKDe9E9HSkTg0vHvHu8SXUJeEOrp8b6lR7h/ewo7bK29MTy+tMvRMYKT0s8LfY2YgX0A/L0767vAeTi+atzAB7zCtHvJAcc7j6PlN+Y2zNxfIy1iyvpy4+9dBvZAtDv49mhjcY3oXo40hdGl474i19fzqbXkXPC/VCv+ysUFtnnM7DG2oamDWdWwH2lnq+id6pvb7fEG6FEu/w7Wt/O/b02Dqvf0S/8DPOGMg3IF77rXPcxZecpfnmnPMHGNuknEAGAAA=
+  </data>
+ </layer>
+ <layer name="Foreground" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <layer name="Top" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SuQmAQBhE4X8r00ww0cwj0Q48GvBowKMC7dQHYgU7ibADX/qiMXvXObMeA0Zn3ptozFiwCnobjR0HTkEvwUXnRuqfswIlKtSCXtj/FvGlWPDNbxmtXNhraLXCXljYA5xBxI9ABgAA
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="20" height="20"/>
+</map>
