@@ -12,7 +12,7 @@ import org.newdawn.slick.Input;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.geom.Polygon;
 import org.newdawn.slick.tiled.TiledMap;
-
+// đang ở dev
 public class WizardGame extends BasicGame {
 	private TiledMap map;
 	private boolean[][] blockMap;
