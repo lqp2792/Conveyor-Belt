@@ -131,6 +131,14 @@ public class WizardGame extends BasicGame {
 		}
 		return false;
 	}
+	public boolean isBlocked1() {
+		for(int i=0; i<polyMap.size(); i++) {
+			if(wizardPolygon.intersects((Polygon) polyMap.get(i))) {
+				return true;
+			}
+		}
+		return false;
+	}
 	public void createPolyMap(boolean[][] blockMap) {
 		for(int x=0; x<map.getWidth(); x++) {
 			for(int y=0; y<map.getHeight(); y++) {
